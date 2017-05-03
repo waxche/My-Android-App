@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TextView
+                android:id="@+id/tv_bills_listview_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="HERE IS BILL ID"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/bills_listview_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/right"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_bills_listview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="HERE IS FOR TITLE"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/tv_bills_listview_introduce_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="HERE IS FOR INTRODUCE ON"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
